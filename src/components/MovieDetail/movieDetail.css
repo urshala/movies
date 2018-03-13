@@ -1,0 +1,87 @@
+.movie-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-page h5 {
+  color: #888;
+  font-weight: normal;
+  line-height: 1.25rem;
+}
+
+.movie-page h5 span {
+  font-size: inherit;
+  font-weight: normal;
+  color: black;
+  padding-left: 1rem;
+}
+
+.movie-page h4 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+.movie-page p {
+  color: #888;
+  line-height: 1.5;
+}
+
+.movie-page .movie-image {
+  flex-basis: 100%;
+  background-repeat: no-repeat;
+  height: 575px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.movie-page .movie-details {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 20px auto 60px auto;
+  font-size: 1rem;
+}
+
+.movie-page .movie-details h1 {
+  line-height: 1.5em;
+}
+
+.movie-page .movie-details h1 span {
+  font-size: inherit;
+  font-weight: normal;
+  padding-left: 1rem;
+  color: #bbb;
+  line-height: inherit;
+}
+
+.movie-page .genres {
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.movie-page .genres span {
+  font-weight: normal;
+  padding: 0 3px 0 3px;
+}
+
+.separator {
+  color: lightgray;
+  padding: 0 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head button{
+    align-self: center;
+    padding: .6rem 1rem;
+    color: green;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border:none;
+    cursor: pointer;
+}
